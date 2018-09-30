@@ -5,7 +5,19 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBrainfuckLib", "MyBrainfuckLib\MyBrainfuckLib.csproj", "{AF85F47D-668E-47BF-B0E4-5C5D2A3533D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBrainfuckConsole", "MyBrainfuckConsole\MyBrainfuckConsole.csproj", "{E2D8B09C-10DE-4DE9-B5CD-9A3C11C6E3F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBrainfuckLibWindowsFormsApp", "MyBrainfuckLibWindowsFormsApp\MyBrainfuckLibWindowsFormsApp.csproj", "{65F7C9F0-18FC-4DDA-95A3-1B2A5E4A461B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBrainfuckLibAndroid.Android", "MyBrainfuckLibAndroid\MyBrainfuckLibAndroid.Android\MyBrainfuckLibAndroid.Android.csproj", "{B2B3C5E0-24E0-4FEA-A739-688E089B2FB6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyBrainfuckLibAndroid", "MyBrainfuckLibAndroid\MyBrainfuckLibAndroid\MyBrainfuckLibAndroid.shproj", "{28BE822B-3125-4097-AEE1-A915C6E85406}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MyBrainfuckLibAndroid\MyBrainfuckLibAndroid\MyBrainfuckLibAndroid.projitems*{28be822b-3125-4097-aee1-a915c6e85406}*SharedItemsImports = 13
+		MyBrainfuckLibAndroid\MyBrainfuckLibAndroid\MyBrainfuckLibAndroid.projitems*{b2b3c5e0-24e0-4fea-a739-688e089b2fb6}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -15,6 +27,20 @@ Global
 		{AF85F47D-668E-47BF-B0E4-5C5D2A3533D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF85F47D-668E-47BF-B0E4-5C5D2A3533D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF85F47D-668E-47BF-B0E4-5C5D2A3533D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D8B09C-10DE-4DE9-B5CD-9A3C11C6E3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D8B09C-10DE-4DE9-B5CD-9A3C11C6E3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D8B09C-10DE-4DE9-B5CD-9A3C11C6E3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D8B09C-10DE-4DE9-B5CD-9A3C11C6E3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F7C9F0-18FC-4DDA-95A3-1B2A5E4A461B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F7C9F0-18FC-4DDA-95A3-1B2A5E4A461B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F7C9F0-18FC-4DDA-95A3-1B2A5E4A461B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F7C9F0-18FC-4DDA-95A3-1B2A5E4A461B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B3C5E0-24E0-4FEA-A739-688E089B2FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B3C5E0-24E0-4FEA-A739-688E089B2FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B3C5E0-24E0-4FEA-A739-688E089B2FB6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B2B3C5E0-24E0-4FEA-A739-688E089B2FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B3C5E0-24E0-4FEA-A739-688E089B2FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B3C5E0-24E0-4FEA-A739-688E089B2FB6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
